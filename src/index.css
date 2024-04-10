@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fabian Sugandhi */
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hello and welcome */
+header h2 {
+    display: flex;
+    align-items: center;
+}
+
+/* More about me */
+article h3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+
+/* My name is */
+header h4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8vh;
+}
+
+/* Designer & Developer */
+header h5 {
+    display: flex;
+    justify-content: flex-end;
+}
