@@ -22,7 +22,7 @@ html, body, main  {
 }
 
 main {
-    padding-top: 20vh;
+    padding-top: 8vh;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 5vh;
@@ -30,6 +30,10 @@ main {
 
 section {
     padding-bottom: 20vh;
+}
+
+article {
+    margin-bottom: 8vh;
 }
 
 /* Font Styles */
@@ -59,10 +63,15 @@ h5 {
 p {
     font-size: 5vw;
     color: #6B6E70;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
-/* Remove hyperlink line */
+strong {
+    font-weight: 700;
+    color: #61892F;
+}
+
+/* Remove hyperlink underline */
 a {
     text-decoration: none;
 }
@@ -97,7 +106,7 @@ nav a:hover {
 #contact_button a {
     font-size: 5vw;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 5%;
     background-color: #61892F;
     color: white;
 }

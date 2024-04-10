@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+/* About Me */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Titles of each part */
+h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Skills & Tools list */
+h4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+p {
+    margin-bottom: 1.2vh;
+}
+
+/* Profile picture */
+#profile_picture {
+    width: 40vw;
+    max-width: 400px;
+    margin-bottom: 5vh;
+    border-radius: 10%;
+}
