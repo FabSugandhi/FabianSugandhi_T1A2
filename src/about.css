@@ -16,6 +16,24 @@ article {
     flex-direction: column;
 }
 
+.skills {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10%; 
+}
+
+.skills_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 25%
+}
+
 /* About Me */
 h1 {
     display: flex;
@@ -29,13 +47,17 @@ h2 {
 }
 
 /* Skills & Tools list */
-h4 {
+h3 {
     display: flex;
     justify-content: flex-start;
 }
 
 p {
     margin-bottom: 1.2vh;
+}
+
+.skills_list p {
+    margin: 0;
 }
 
 /* Profile picture */

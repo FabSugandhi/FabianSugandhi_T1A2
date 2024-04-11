@@ -47,16 +47,16 @@ h2 {
     font-size: 10vw;
 }
 
-h3 {
+h5 {
     font-size: 5vw;
     color: white;
 }
 
-h4 {
+h3 {
     font-size: 6vw;
 }
 
-h5 {
+h4 {
     font-size: 6vw;
 }
 
@@ -104,6 +104,22 @@ nav a:hover {
     bottom: 5vh;
 }
 #contact_button a {
+    font-size: 5vw;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #61892F;
+    color: white;
+}
+
+/* Resume button */
+#resume_button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    bottom: 15vh;
+}
+#resume_button a {
     font-size: 5vw;
     padding: 10px;
     border-radius: 5%;

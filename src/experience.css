@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5vw;
+    row-gap: 1vw;
+}
+
+.project_details {
+    border-left: solid 3px #61892F;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.projects img {
+    width: 25vw;
+    height: 25vw;
+}
+
+/* About Me */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Titles of each part */
+h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Skills & Tools list */
+h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+/* Class Formatting */
+.experience * {
+    padding-left: 0.5rem;
+}
+
+.experience h3, .experience h4 {
+    border-left: solid 3px #61892F;
+}
+
+/* Hyperlink text color */
+a h4 {
+    color: #61892F;
+    text-decoration: underline;
+}
