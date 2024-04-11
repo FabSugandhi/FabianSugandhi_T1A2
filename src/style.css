@@ -2,16 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Bebas Neue", sans-serif;
     font-style: normal;
     font-weight: 400;
 }
-
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
 
 html, body, main  {
     min-height: 100vh;
@@ -21,47 +14,71 @@ html, body, main  {
 }
 
 main {
-    padding-top: 8vh;
+    padding-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 5vh;
 }
 
-section {
-    padding-bottom: 20vh;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
 }
 
 article {
-    margin-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding-bottom: 15vh;
+}
+
+article {
+    margin-bottom: 5vh;
 }
 
 /* Font Styles */
 h1 {
-    font-size: 16vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
     color: #61892F;
     line-height: 0.9;
 }
 
 h2 {
-    font-size: 10vw;
-}
-
-h5 {
-    font-size: 5vw;
-    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 6vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
 }
 
 h4 {
-    font-size: 6vw;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+}
+
+h5 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.2rem;
+    color: white;
 }
 
 p {
-    font-size: 5vw;
-    color: #6B6E70;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1rem;
+    color: #676d72;
     line-height: 1.2;
 }
 
@@ -83,6 +100,7 @@ nav {
     border-bottom: 2px solid #61892F;
     display: flex;
     justify-content: space-around;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 nav a {
@@ -103,11 +121,12 @@ nav a:hover {
     bottom: 5vh;
 }
 #contact_button a {
-    font-size: 5vw;
+    font-size: 1.2rem;
     padding: 10px;
     border-radius: 5%;
     background-color: #61892F;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 /* Resume button */
@@ -116,12 +135,13 @@ nav a:hover {
     align-items: flex-end;
     justify-content: center;
     position: relative;
-    bottom: 15vh;
+    bottom: 12vh;
 }
 #resume_button a {
-    font-size: 5vw;
+    font-size: 1.2rem;
     padding: 10px;
     border-radius: 5%;
     background-color: #61892F;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
 }

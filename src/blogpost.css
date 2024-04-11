@@ -1,0 +1,122 @@
+.recent_title {
+    padding-bottom: 1.5rem;
+}
+
+.recent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    column-gap: 2rem;
+}
+
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #474B4F;
+    padding: 3rem 1.5rem 2rem 1.5rem;
+}
+
+.blogpost img {
+    width: 80vw;
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #6B6E70;
+}
+
+.blogpost_image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.recent_post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #474B4F;
+    padding: 0.2rem 1rem 0.5rem 1rem;
+}
+
+.recent_post img {
+    width: 30vw;
+    height: 30vw;
+    border: 2px solid #6B6E70;
+}
+
+.recent_image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recent_post h3 {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.recent_post h2 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.recent_post h4 {
+    color: #61892F;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.blog_link {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* BLOGPOST */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Title of blogpost */
+h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Blogpost date */
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1rem;
+}
+
+/* Link to blog */
+h4 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+
+p {
+    color: white;
+}
+
+/* Hyperlink text color */
+a h4 {
+    color: #61892F;
+    text-decoration: underline;
+}
