@@ -35,7 +35,7 @@ article {
     height: 25vw;
 }
 
-/* About Me */
+/* Page Title */
 h1 {
     display: flex;
     justify-content: center;
@@ -47,7 +47,6 @@ h2 {
     justify-content: flex-start;
 }
 
-/* Skills & Tools list */
 h3 {
     display: flex;
     justify-content: flex-start;
