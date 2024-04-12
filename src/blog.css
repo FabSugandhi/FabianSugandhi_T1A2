@@ -58,7 +58,7 @@ h4 {
     font-size: 1.5rem;
 }
 
-p {
+main p {
     color: white;
 }
 
@@ -66,4 +66,14 @@ p {
 a h4 {
     color: #61892F;
     text-decoration: underline;
+}
+
+/* Scaling for Tablet */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size:1.8rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
 }

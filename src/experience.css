@@ -57,11 +57,29 @@ h4 {
 
 .projects img {
     width: 25vw;
+    max-width: 200px;
     height: 25vw;
+    max-height: 200px;
 }
 
 /* Hyperlink text color */
 a h4 {
     color: #61892F;
     text-decoration: underline;
+}
+
+/* Scaling for Tablet */
+@media only screen and (min-width: 768px) {
+    h3 {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 2.5rem;
+    }
+    
+    h4 {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 2rem;
+        font-weight: 100;
+    }
 }

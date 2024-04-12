@@ -4,9 +4,11 @@
 
 .recent {
     display: flex;
+    width: 100%;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    width: 100%;
     column-gap: 2rem;
 }
 
@@ -111,7 +113,7 @@ h4 {
     font-size: 1.5rem;
 }
 
-p {
+main p {
     color: white;
 }
 
@@ -119,4 +121,23 @@ p {
 a h4 {
     color: #61892F;
     text-decoration: underline;
+}
+
+/* Scaling for Tablet */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size:1.8rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    .recent_post h3 {
+        font-size: 1rem;
+    }
+    .recent_post h2 {
+        font-size: 2rem;
+    }
+    .recent_post h4 {
+        font-size: 1.8rem;
+    }
 }

@@ -1,7 +1,7 @@
 .skills {
     display: flex;
     justify-content: center;
-    column-gap: 10%; 
+    column-gap: 20%; 
 }
 
 .skills_list {
@@ -47,4 +47,11 @@ p {
     max-width: 400px;
     margin-bottom: 5vh;
     border-radius: 10%;
+}
+
+/* Scaling for Tablet */
+@media only screen and (min-width: 768px) {
+    h3 {
+        font-size: 2rem;
+    }
 }
