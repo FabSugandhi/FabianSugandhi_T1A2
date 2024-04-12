@@ -55,3 +55,25 @@ p {
         font-size: 2rem;
     }
 }
+
+/* Scaling for Laptop */
+@media only screen and (min-width: 1024px) {
+    /* Font size */
+    .about {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .about_title {
+        width: 40%;
+    }
+    .about_content {
+        width: 60%;
+    }
+    h2 {
+        font-size: 6vh;
+    }
+    p {
+        font-size: 2.2vh;
+    }
+}

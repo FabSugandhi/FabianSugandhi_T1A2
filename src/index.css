@@ -48,3 +48,11 @@ article h5 {
     justify-content: flex-end;
     margin-top: 1vh;
 }
+
+/* Scaling for Laptop */
+@media only screen and (min-width: 1024px) {
+    /* Font size */
+    h1 {
+        font-size: 12rem;
+    }
+}

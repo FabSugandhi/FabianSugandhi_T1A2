@@ -141,3 +141,15 @@ a h4 {
         font-size: 1.8rem;
     }
 }
+/* Scaling for Laptop */
+@media only screen and (min-width: 1024px) {
+    .blogpost img {
+        width: 30vw;
+        height: 30vw;
+    }
+    .recent_post img {
+        width: 15vw;
+        height: 15vw;
+        border: 2px solid #6B6E70;
+    }
+}

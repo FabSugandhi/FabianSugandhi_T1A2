@@ -77,3 +77,12 @@ a h4 {
         font-size: 3rem;
     }
 }
+
+/* Scaling for Laptop */
+@media only screen and (min-width: 1024px) {
+    /* Font size */
+    article img {
+        width: 20vw;
+        height: 20vw;
+    }
+}

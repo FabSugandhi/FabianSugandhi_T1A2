@@ -17,7 +17,6 @@ main {
     padding-top: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,6 +49,7 @@ footer {
     align-items: center;
     border-top: 2px solid #61892F;
     padding: 1vh;
+    width: 100%;
 }
 
 footer p {
@@ -62,6 +62,7 @@ h1 {
     font-size: 4rem;
     color: #61892F;
     line-height: 0.9;
+    text-align: center;
 }
 
 h2 {
@@ -194,5 +195,18 @@ nav a:hover {
     }
     footer p {
         font-size: 1rem;
+    }
+}
+
+/* Scaling for Laptop */
+@media only screen and (min-width: 1024px) {
+    /* Font size */
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        width: 60vw;
     }
 }
