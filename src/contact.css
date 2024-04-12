@@ -55,4 +55,28 @@ p {
     h4 {
         font-size: 2rem;
     }
+    section {
+        padding-bottom: 5vh;
+    }
+    article {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Scaling for Laptop */
+@media only screen and (min-width: 1024px) {
+    /* Font size */
+    header {
+        margin-bottom: 0;
+    }
+    section {
+        padding-bottom: 7.8vh;
+    }
+    article {
+        margin-bottom: 0;
+    }
+    p {
+        font-size: 1.5rem;
+    }
 }

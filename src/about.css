@@ -30,13 +30,6 @@ h2 {
     justify-content: flex-start;
 }
 
-/* Skills & Tools list */
-h3 {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 1.5rem;
-}
-
 p {
     padding-bottom: 1rem;
 }
@@ -47,13 +40,6 @@ p {
     max-width: 400px;
     margin-bottom: 5vh;
     border-radius: 10%;
-}
-
-/* Scaling for Tablet */
-@media only screen and (min-width: 768px) {
-    h3 {
-        font-size: 2rem;
-    }
 }
 
 /* Scaling for Laptop */
