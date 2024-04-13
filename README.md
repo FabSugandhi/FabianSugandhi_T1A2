@@ -35,7 +35,7 @@ The informative design, is intentionally set-up with a centered-column layout to
 
 Most of the pages have a button at the bottom of the page which takes viewer to the "Contact" page. This button is mainly targetted for invested viewers looking for a way to connect, giving them quick access to my contact information. There is also another button utilised in a couple of pages where my background and experience are concerned ("About" and "Experience" page), allowing viewers to download a copy of my resume. This resume is currently and outdated resume from my time in the previous industry, used as a placeholder and will be replaced in the future.
 
-I also paid attention to the responsive functionality of the website. Since there are multiple devices with varying amount of screen sizes that will potentially view this website, I have included media queries to each of the pages. These queries customize the font sizes, image sizes, and even the content placement of some components of these pages, while still maintaining the centered-column layout identity of the website. I have prepared this website for 3 screen sizes: Mobile devices (up to 768px wide), Tablet (up to 1024px wide), and Laptop (covers the rest of general screen widths above 1024px).
+I also paid attention to the responsive functionality of the website. Since there are multiple devices with varying amount of screen sizes that will potentially view this website, I have included media queries to each of the pages. These queries customize the font sizes, image sizes, and even the content placement of some components of these pages, while still maintaining the centered-column layout identity of the website. I have prepared this website for 3 viewport width: Mobile devices (up to 768px wide), Tablet (up to 1024px wide), and Laptop (covers the rest of general screen widths above 1024px).
 
 Most of the formatting is contained in the style.css file to maintain uniformity between the pages. Including the general formatting and sizing for the HTML page component, text, margin, flex behaviour, layout (CSS Flexbox being the majority layout function), and media queries. I have added maximum sizes for several of the components as well as keeping minimum usage "vw" or "vh" for text sizes to avoid the content being too big for some device, keeping the centered column design. This might change in the future once I have analysed enough data of website visits. Each of the pages are linked to two stylesheets, "style.css" and one dedicated for each page. For some components that are specific to certain pages, such as images, there are extra styling applied on their dedicated stylesheet.
 
@@ -61,10 +61,121 @@ The "Blog" page contains five components each with a hyperlink "Read Post" text 
 
 ### Blogpost
 
-There are five "Blogpost" pages, each links directly from the aforementioned "Blog" page and are not included in the Navigation menu to avoid cluttering the website. Each "Blogpost" page consists of the blog image, title, published date, and the actual blogpost article. Same as the above, all are placeholders for the purpose of this assignment.
+There are five "Blogpost" pages, each links directly from the aforementioned "Blog" page and are not included in the Navigation menu to avoid cluttering the website. These pages however, still contain the Navigation menu for easy access to the other pages. Each "Blogpost" page consists of the blog image, title, published date, and the actual blogpost article. Same as the above, all are placeholders for the purpose of this assignment.
 
 Under the main content, I have also included a "Recent Posts" section which contains two components linked to the next and previous blog posts, with only the blog title and published date shown. For the most recent and oldest blog posts ("Blogpost 1" and "Blogpost 5"), there is only one "Recent Posts" component available as there no newer or older posts respectively.
 
 ### Contact
 
 The "Contact" page contains a short friendly message and my contact information (email, phone, and residential area), as well as hyperlinked icons to my social media pages.
+
+## Sitemap
+
+![Sitemap](./docs/Sitemap.png)
+The blue arrows show page links accessible using the Navigation menu, while the red arrows show page links accessible using page elements. Arrowheads point to the destination page.
+
+## Wireframe
+
+The website design has changed from the wireframe. I decided to not include a logo and center-alligned the page titles in the Navigation menu. The website design might be altered to suit the wireframe in the future, when I am able to design an appropriate logo and am more proficient in JavaScript for cleaner presentation, especially for smaller screens.
+
+### Mobile
+#### Home
+![Home](./docs/wireframe/WireHomeMobile.jpg)
+#### About
+![About](./docs/wireframe/WireAboutMobile.jpg)
+#### Experience
+![Experience](./docs/wireframe/WireExperienceMobile.jpg)
+#### Blog
+![Blog](./docs/wireframe/WireBlogMobile.jpg)
+#### Blogpost
+![Blogpost](./docs/wireframe/WireBlogpostMobile.jpg)
+#### Contact
+![Contact](./docs/wireframe/WireContactMobile.jpg)
+
+### Tablet
+#### Home
+![Home](./docs/wireframe/WireHomeTablet.jpg)
+#### About
+![About](./docs/wireframe/WireAboutTablet.jpg)
+#### Experience
+![Experience](./docs/wireframe/WireExperienceTablet.jpg)
+#### Blog
+![Blog](./docs/wireframe/WireBlogTablet.jpg)
+#### Blogpost
+![Blogpost](./docs/wireframe/WireBlogpostTablet.jpg)
+#### Contact
+![Contact](./docs/wireframe/WireContactTablet.jpg)
+
+### Laptop
+#### Home
+![Home](./docs/wireframe/WireHomeLaptop.jpg)
+#### About
+![About](./docs/wireframe/WireAboutLaptop.jpg)
+#### Experience
+![Experience](./docs/wireframe/WireExperienceLaptop.jpg)
+#### Blog
+![Blog](./docs/wireframe/WireBlogLaptop.jpg)
+#### Blogpost
+![Blogpost](./docs/wireframe/WireBlogpostLaptop.jpg)
+#### Contact
+![Contact](./docs/wireframe/WireContactLaptop.jpg)
+
+## Screenshots
+
+Screenshots are made with the following viewport sizes as the benchmark:
+
+- Mobile (390 x 844)
+- Tablet (820 x 1180)
+- Laptop (1920 x 1080)
+
+### Mobile
+#### Home
+![Home](./docs/screenshot/HomeMobile.png)
+#### About
+![About](./docs/screenshot/AboutMobile.png)
+#### Experience
+![Experience](./docs/screenshot/ExperienceMobile.png)
+#### Blog
+![Blog](./docs/screenshot/BlogMobile.png)
+#### Blogpost
+![Blogpost](./docs/screenshot/BlogpostMobile.png)
+#### Contact
+![Contact](./docs/screenshot/ContactMobile.png)
+
+### Tablet
+#### Home
+![Home](./docs/screenshot/HomeTablet.png)
+#### About
+![About](./docs/screenshot/AboutTablet.png)
+#### Experience
+![Experience](./docs/screenshot/ExperienceTablet.png)
+#### Blog
+![Blog](./docs/screenshot/BlogTablet.png)
+#### Blogpost
+![Blogpost](./docs/screenshot/BlogpostTablet.png)
+#### Contact
+![Contact](./docs/screenshot/ContactTablet.png)
+
+### Laptop
+#### Home
+![Home](./docs/screenshot/HomeLaptop.png)
+#### About
+![About](./docs/screenshot/AboutLaptop.png)
+#### Experience
+![Experience](./docs/screenshot/ExperienceLaptop.png)
+#### Blog
+![Blog](./docs/screenshot/BlogLaptop.png)
+#### Blogpost
+![Blogpost](./docs/screenshot/BlogpostLaptop.png)
+#### Contact
+![Contact](./docs/screenshot/ContactLaptop.png)
+
+## Tech Stack
+
+Website: HTML, CSS\
+Deployment: [Netlify](https://www.netlify.com/)\
+Icons: [Iconfinder](https://www.iconfinder.com/), [Iconduck](https://iconduck.com/)\
+Royalty-free Images: [Unsplash](https://unsplash.com/)\
+Sitemap: [Figma](https://www.figma.com/)\
+Wireframe: [Figma](https://www.figma.com/)\
+Colour Palette: [Coolors](https://coolors.co/)
