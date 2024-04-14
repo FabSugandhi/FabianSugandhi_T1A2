@@ -1,15 +1,14 @@
+/* Class and elements within formatting */
 .skills {
     display: flex;
     justify-content: center;
     column-gap: 20%; 
 }
-
 .skills_list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .skills img {
     width: 20vw;
     max-width: 100px;
@@ -30,6 +29,7 @@ h2 {
     justify-content: flex-start;
 }
 
+/* Layout for paragraph contents */
 p {
     padding-bottom: 1rem;
 }

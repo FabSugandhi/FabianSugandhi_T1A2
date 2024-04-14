@@ -6,13 +6,13 @@
     font-weight: 400;
 }
 
+/* Background colour and layout of website elements*/
 html  {
     min-height: 100vh;
     width: 100%;
     background-color: #222629;
     color: white;
 }
-
 main {
     padding-top: 5vh;
     padding-left: 5vw;
@@ -22,26 +22,19 @@ main {
     align-items: center;
     justify-content: flex-start;
 }
-
 header {
     display: flex;
     flex-direction: column;
     margin-bottom: 5vh;
 }
-
 article {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5vh;
 }
-
 section {
     padding-bottom: 15vh;
 }
-
-article {
-    margin-bottom: 5vh;
-}
-
 footer {
     display: flex;
     flex-direction:column;
@@ -51,12 +44,11 @@ footer {
     padding: 1vh;
     width: 100%;
 }
-
 footer p {
     padding: 0;
 }
 
-/* Font Styles */
+/* General Font Formatting */
 h1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 4rem;
@@ -64,35 +56,29 @@ h1 {
     line-height: 0.9;
     text-align: center;
 }
-
 h2 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 3rem;
 }
-
 h3 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 2rem;
 }
-
 h4 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 2rem;
 }
-
 h5 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.2rem;
     color: white;
 }
-
 p {
     font-family: "Oxygen", sans-serif;
     font-size: 1rem;
     color: #676d72;
     line-height: 1.2;
 }
-
 strong {
     font-weight: 700;
     color: #61892F;
@@ -103,7 +89,7 @@ a {
     text-decoration: none;
 }
 
-/* Navigation Bar */
+/* Navigation Bar formatting */
 nav {
     width: 100%;
     padding: 10px 10px;
@@ -113,12 +99,10 @@ nav {
     justify-content: space-around;
     font-family: "Bebas Neue", sans-serif;
 }
-
 nav a {
     font-size: 1.5rem;
     color: white;
 }
-
 nav a:hover {
     border-bottom: 2px solid #61892F;
 }

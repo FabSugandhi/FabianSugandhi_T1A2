@@ -1,24 +1,21 @@
+/* Class and elements within formatting */
 .contact * {
     padding-left: 0.5rem;
 }
-
 .contact h3 {
     border-left: solid 3px #61892F;
 }
-
 .social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     column-gap: 10%; 
 }
-
 .social_list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .social img {
     width: 20vw;
     max-width: 100px;
@@ -46,6 +43,7 @@ h4 {
     font-size: 1.5rem;
 }
 
+/* Paragraph layout */
 p {
     padding-bottom: 1rem;
 }
@@ -62,7 +60,6 @@ p {
         margin-bottom: 0;
     }
 }
-
 
 /* Scaling for Laptop */
 @media only screen and (min-width: 1024px) {

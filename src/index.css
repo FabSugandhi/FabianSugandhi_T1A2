@@ -1,3 +1,4 @@
+/* Layout of website elements */
 main {
     padding-top: 10vh;
     display: flex;
@@ -5,13 +6,11 @@ main {
     align-items: center;
     justify-content: flex-start;
 }
-
 header {
     display: flex;
     flex-direction: column;
     margin-bottom: 8vh;
 }
-
 article {
     display: flex;
     flex-direction: column;
